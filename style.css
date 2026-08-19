@@ -12,17 +12,10 @@ html {
 
 body {
   margin: 0;
-
-  font-family:
-    "Noto Sans TC",
-    "Microsoft JhengHei",
-    Arial,
-    sans-serif;
-
+  font-family: "Noto Sans TC", "Microsoft JhengHei", Arial, sans-serif;
   background: #f5f7fa;
   color: #263238;
 }
-
 
 /* ==============================
    頁首
@@ -30,40 +23,29 @@ body {
 
 header {
   background: #ffffff;
-
   border-bottom: 1px solid #e0e0e0;
-
   padding: 18px 24px;
 }
 
 .header-inner {
   max-width: 1100px;
-
   margin: 0 auto;
-
   display: flex;
-
   align-items: center;
-
   justify-content: space-between;
-
   gap: 20px;
 }
 
 .logo {
   font-size: 22px;
-
   font-weight: 700;
-
   color: #1565c0;
 }
 
 .course-name {
   font-size: 14px;
-
   color: #607d8b;
 }
-
 
 /* ==============================
    主要內容
@@ -71,12 +53,9 @@ header {
 
 main {
   max-width: 1100px;
-
   margin: 40px auto;
-
   padding: 0 20px;
 }
-
 
 /* ==============================
    Hero
@@ -88,20 +67,15 @@ main {
 
 .hero h1 {
   margin: 0 0 10px;
-
   font-size: 32px;
-
   font-weight: 700;
 }
 
 .hero p {
   margin: 0;
-
   color: #607d8b;
-
   line-height: 1.8;
 }
-
 
 /* ==============================
    雙欄版面
@@ -109,16 +83,10 @@ main {
 
 .layout {
   display: grid;
-
-  grid-template-columns:
-    minmax(0, 1.4fr)
-    minmax(300px, 0.8fr);
-
+  grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.8fr);
   gap: 25px;
-
   align-items: start;
 }
-
 
 /* ==============================
    卡片
@@ -126,24 +94,16 @@ main {
 
 .card {
   background: #ffffff;
-
   border-radius: 14px;
-
   padding: 28px;
-
-  box-shadow:
-    0 4px 20px
-    rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .card h2 {
   margin-top: 0;
-
   margin-bottom: 20px;
-
   font-size: 21px;
 }
-
 
 /* ==============================
    注意事項
@@ -151,13 +111,11 @@ main {
 
 .notice-list {
   padding-left: 22px;
-
   margin-bottom: 0;
 }
 
 .notice-list li {
   margin-bottom: 14px;
-
   line-height: 1.8;
 }
 
@@ -167,9 +125,7 @@ main {
 
 .notice-list a {
   color: #1565c0;
-
   font-weight: 600;
-
   text-decoration: none;
 }
 
@@ -177,69 +133,46 @@ main {
   text-decoration: underline;
 }
 
-
 /* ==============================
    登入區
 ============================== */
 
 .login-card {
   position: sticky;
-
   top: 25px;
 }
 
 .login-description {
   margin-top: -5px;
-
   margin-bottom: 22px;
-
   font-size: 14px;
-
   color: #78909c;
-
   line-height: 1.7;
 }
 
 label {
   display: block;
-
   margin-bottom: 7px;
-
   font-size: 14px;
-
   font-weight: 600;
 }
 
 input {
   width: 100%;
-
   padding: 12px 14px;
-
   margin-bottom: 18px;
-
   border: 1px solid #cfd8dc;
-
   border-radius: 8px;
-
   background: #ffffff;
-
   font-size: 15px;
-
   outline: none;
-
-  transition:
-    border-color 0.2s,
-    box-shadow 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 input:focus {
   border-color: #1976d2;
-
-  box-shadow:
-    0 0 0 3px
-    rgba(25, 118, 210, 0.08);
+  box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.08);
 }
-
 
 /* ==============================
    按鈕
@@ -247,26 +180,15 @@ input:focus {
 
 button {
   width: 100%;
-
   padding: 13px;
-
   border: 0;
-
   border-radius: 8px;
-
   background: #1565c0;
-
   color: #ffffff;
-
   font-size: 16px;
-
   font-weight: 600;
-
   cursor: pointer;
-
-  transition:
-    background 0.2s,
-    opacity 0.2s;
+  transition: background 0.2s, opacity 0.2s;
 }
 
 button:hover {
@@ -275,10 +197,8 @@ button:hover {
 
 button:disabled {
   opacity: 0.65;
-
   cursor: wait;
 }
-
 
 /* ==============================
    錯誤訊息
@@ -286,22 +206,14 @@ button:disabled {
 
 .error {
   display: none;
-
   margin-top: 14px;
-
   padding: 11px 12px;
-
   border-radius: 7px;
-
   background: #ffebee;
-
   color: #c62828;
-
   font-size: 14px;
-
   line-height: 1.5;
 }
-
 
 /* ==============================
    課程狀態
@@ -309,30 +221,20 @@ button:disabled {
 
 .status {
   margin-top: 18px;
-
   padding-top: 16px;
-
   border-top: 1px solid #eceff1;
-
   font-size: 13px;
-
   color: #90a4ae;
 }
 
 .status-dot {
   display: inline-block;
-
   width: 7px;
-
   height: 7px;
-
   margin-right: 6px;
-
   border-radius: 50%;
-
   background: #43a047;
 }
-
 
 /* ==============================
    頁尾
@@ -340,11 +242,8 @@ button:disabled {
 
 footer {
   padding: 30px 20px 40px;
-
   text-align: center;
-
   color: #90a4ae;
-
   font-size: 13px;
 }
 
@@ -354,15 +253,10 @@ footer {
 
 .back-link {
   display: inline-block;
-
   margin-bottom: 25px;
-
   color: #1565c0;
-
   font-size: 14px;
-
   font-weight: 600;
-
   text-decoration: none;
 }
 
@@ -370,89 +264,53 @@ footer {
   text-decoration: underline;
 }
 
-
 .course-navigation {
   display: grid;
-
-  grid-template-columns:
-    repeat(2, minmax(0, 1fr));
-
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
 }
 
-
 /* ==============================
-   章節卡片
+   課程／章節卡片
 ============================== */
 
 .chapter-card {
   display: flex;
-
   align-items: center;
-
   gap: 20px;
-
   padding: 24px;
-
   background: #ffffff;
-
   border: 1px solid #eceff1;
-
   border-radius: 14px;
-
   color: #263238;
-
   text-decoration: none;
-
-  box-shadow:
-    0 4px 20px
-    rgba(0, 0, 0, 0.05);
-
-  transition:
-    transform 0.2s,
-    box-shadow 0.2s,
-    border-color 0.2s;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
 }
 
 .chapter-card:hover {
   transform: translateY(-2px);
-
   border-color: #bbdefb;
-
-  box-shadow:
-    0 8px 24px
-    rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 
-
-/* CH1、CH2 */
+/* 左側科目／章節標籤 */
 
 .chapter-number {
   display: flex;
-
   align-items: center;
-
   justify-content: center;
-
   flex-shrink: 0;
-
   width: 70px;
-
   height: 70px;
-
   border-radius: 12px;
-
   background: #e3f2fd;
-
   color: #1565c0;
-
-  font-size: 20px;
-
+  font-size: 18px;
   font-weight: 700;
 }
 
-
-/* 章節文字 */
+/* 課程文字 */
 
 .chapter-info {
   flex: 1;
@@ -460,31 +318,24 @@ footer {
 
 .chapter-info h2 {
   margin: 0 0 6px;
-
   font-size: 19px;
 }
 
 .chapter-info p {
   margin: 0;
-
   color: #78909c;
-
   font-size: 14px;
 }
 
-
-/* 箭頭 */
+/* 右側箭頭 */
 
 .chapter-arrow {
   color: #90a4ae;
-
   font-size: 24px;
-
   transition: transform 0.2s;
 }
 
 .chapter-card:hover .chapter-arrow {
   transform: translateX(4px);
-
   color: #1565c0;
 }
