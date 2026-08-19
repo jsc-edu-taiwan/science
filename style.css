@@ -347,3 +347,144 @@ footer {
 
   font-size: 13px;
 }
+
+/* ==============================
+   課程導航
+============================== */
+
+.back-link {
+  display: inline-block;
+
+  margin-bottom: 25px;
+
+  color: #1565c0;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+
+.course-navigation {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 18px;
+}
+
+
+/* ==============================
+   章節卡片
+============================== */
+
+.chapter-card {
+  display: flex;
+
+  align-items: center;
+
+  gap: 20px;
+
+  padding: 24px;
+
+  background: #ffffff;
+
+  border: 1px solid #eceff1;
+
+  border-radius: 14px;
+
+  color: #263238;
+
+  text-decoration: none;
+
+  box-shadow:
+    0 4px 20px
+    rgba(0, 0, 0, 0.05);
+
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s,
+    border-color 0.2s;
+}
+
+.chapter-card:hover {
+  transform: translateY(-2px);
+
+  border-color: #bbdefb;
+
+  box-shadow:
+    0 8px 24px
+    rgba(0, 0, 0, 0.08);
+}
+
+
+/* CH1、CH2 */
+
+.chapter-number {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  width: 70px;
+
+  height: 70px;
+
+  border-radius: 12px;
+
+  background: #e3f2fd;
+
+  color: #1565c0;
+
+  font-size: 20px;
+
+  font-weight: 700;
+}
+
+
+/* 章節文字 */
+
+.chapter-info {
+  flex: 1;
+}
+
+.chapter-info h2 {
+  margin: 0 0 6px;
+
+  font-size: 19px;
+}
+
+.chapter-info p {
+  margin: 0;
+
+  color: #78909c;
+
+  font-size: 14px;
+}
+
+
+/* 箭頭 */
+
+.chapter-arrow {
+  color: #90a4ae;
+
+  font-size: 24px;
+
+  transition: transform 0.2s;
+}
+
+.chapter-card:hover .chapter-arrow {
+  transform: translateX(4px);
+
+  color: #1565c0;
+}
